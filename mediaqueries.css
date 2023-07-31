@@ -1,0 +1,113 @@
+/* 480px: Mobile devices
+ 768px: iPads, Tablets
+1024px: Small screens, laptops
+1200px: Desktops, large screens */
+
+/* ver 600 */
+/* 
+@media (max-width: 768px) {
+  /* h1 {
+    font-size: 30px;
+  }
+  .texto {
+    font-size: 17px;
+  } */
+
+@media (max-width: 450px) {
+  h1 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .botonera {
+    margin-top: 5px;
+    gap: 5;
+    justify-content: flex-end;
+  }
+  .boton-left {
+    margin: 5px;
+  }
+  .boton-right {
+    margin: 5px;
+  }
+
+  .form {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .landingpage {
+    /* cortar imagen */
+    background: url("/img/fondor.jpg") center/cover scroll no-repeat;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local; */
+  }
+  .botonera {
+    margin-top: 15px;
+    gap: 15;
+  }
+
+  .boton-left {
+    background: rgb(120, 190, 32);
+    padding: 9px 10px;
+    border-radius: 50px;
+    /* color: #ffea00; */
+    color: #edf2f4ff;
+  }
+
+  .boton-right {
+    background: #edf2f4ff;
+    color: #2b2d42ff;
+    padding: 9px 10px;
+    border-radius: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .barranav {
+    gap: 10px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 35px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: 2px solid var(--electric);
+    border-top: 0;
+    flex-direction: column;
+    background-color: #edf2f4ff;
+    border-radius: 0px 0px 15px 15px;
+    padding: 30px 30px;
+    align-items: flex-start;
+    /* display: none; */
+    transform: translateX(-200%);
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+  }
+
+  .menu a {
+    font-size: 18px;
+  }
+
+  .menu-label {
+    display: flex;
+    cursor: pointer;
+    order: 2;
+  }
+
+  .menu-label img {
+    height: 20px;
+    width: 25px;
+  }
+
+  #menu-toggle:checked + .menu {
+    transform: translateX(0);
+    display: flex;
+  }
+}
