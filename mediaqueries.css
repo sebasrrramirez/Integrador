@@ -45,6 +45,13 @@
     background-position: center;
     background-attachment: local; */
   }
+
+  h1 {
+    margin: 1.3em;
+    padding-top: 30px;
+    margin-top: 10vh;
+    padding-bottom: 15px;
+  }
   .botonera {
     margin-top: 15px;
     gap: 15;
@@ -76,7 +83,7 @@
 
   .menu {
     position: absolute;
-    top: 35px;
+    top: 10vh;
     width: 90%;
     left: 5%;
     right: 5%;
@@ -90,7 +97,7 @@
     /* display: none; */
     transform: translateX(-200%);
     transition: all 0.5s ease-in-out;
-    z-index: 2;
+    z-index: 10;
   }
 
   .menu a {
