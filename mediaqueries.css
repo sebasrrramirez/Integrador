@@ -14,13 +14,10 @@
   } */
 
 @media (max-width: 450px) {
-  header {
-    height: 9vh;
-    padding-bottom: 5px;
-  }
   h1 {
     margin: 1.3em;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
   }
   .botonera {
     margin-top: 3px;
