@@ -149,3 +149,7 @@ button {
   margin-top: 15px;
   font-weight: bolder;
 }
+
+.link a {
+  color: yellow;
+}
