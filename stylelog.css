@@ -97,7 +97,24 @@ h3::after {
   height: 3px;
   border-radius: 3px;
   background-color: #fff;
-  width: 120px;
+  width: 110px;
+  left: 0;
+  bottom: 0;
+}
+
+h4 {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+}
+h4::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  width: 180px;
   left: 0;
   bottom: 0;
 }
