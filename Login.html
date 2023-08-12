@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>El campito Tenis - Login</title>
-    <link rel="stylesheet" href="styleslogin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylelog.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <title>Iniciar Sesion</title>
+    <!-- favicon -->
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -25,39 +32,33 @@
     />
     <link rel="manifest" href="/site.webmanifest" />
   </head>
+
   <body>
-    <img class="logo" src="./img/logonew.png" alt="Logo" />
-    <div class="signupFrm">
-      <div class="wrapper">
-        <form action="" class="form">
-          <h1 class="title">Iniciar Sesion</h1>
-
-          <div class="inputContainer">
-            <input type="email" class="input" placeholder="a" />
-            <label for="" class="label">Email</label>
-          </div>
-
-          <div class="inputContainer">
-            <input type="text" class="input" placeholder="a" />
-            <label for="" class="label">Username</label>
-          </div>
-
-          <div class="inputContainer">
-            <input type="password" class="input" placeholder="a" />
-            <label for="" class="label">Password</label>
-          </div>
-
-          <div class="inputContainer">
-            <input type="password" class="input" placeholder="a" />
-            <label for="" class="label">Confirm Password</label>
-          </div>
-
-          <div class="botonera">
-            <a href="Register.html" target="_parent">¿Aun no tienes cuenta?</a>
-            <a href="index.html" class="submitBtn">Iniciar</a>
-          </div>
-        </form>
+    <!-- HEADER Y NAVBAR -->
+    <header class="header">
+      <div class="pelota-picando">
+        <img class="pelota" src="./img/pelota.png" alt="pelota" />
       </div>
-    </div>
+      <img class="logo" src="./img/logonew.png" alt="Logo" />
+      <nav class="barranav">
+        <ul class="menu">
+          <li>
+            <a href="index.html" target="_parent">
+              <img class="iconlogin" src="./img/home.png" alt="Login"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- FORM -->
+    <form action="">
+      <h3>Iniciar Sesión</h3>
+      <input type="email" placeholder="Ingrese su Correo" required />
+      <input type="password" placeholder="Ingrese su contraseña" required />
+      <!-- <a href="index.html" class="button">Iniciar sesion</a> -->
+      <button>Iniciar Sesion</button>
+      <p class="link"><a href="Register.html">¿Aun no tienes cuenta?</a></p>
+    </form>
   </body>
 </html>
