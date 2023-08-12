@@ -15,7 +15,7 @@
 
 @media (max-width: 450px) {
   h1 {
-    margin: 1.3em;
+    margin: 0.4em;
     padding-top: 30px;
     margin-top: 10vh;
     padding-bottom: 15px;
@@ -47,36 +47,13 @@
   }
 
   h1 {
-    margin: 1.3em;
-    padding-top: 30px;
-    margin-top: 10vh;
-    padding-bottom: 15px;
-  }
-  .botonera {
-    margin-top: 15px;
-    gap: 15;
+    margin: 0.4em;
   }
 
-  .boton-left {
-    background: rgb(120, 190, 32);
-    padding: 9px 10px;
-    border-radius: 50px;
-    /* color: #ffea00; */
-    color: #edf2f4ff;
-  }
-
-  .boton-right {
-    background: #edf2f4ff;
-    color: #2b2d42ff;
-    padding: 9px 10px;
-    border-radius: 50px;
-  }
   h2 {
     font-size: 30px;
   }
-}
 
-@media (max-width: 1024px) {
   .barranav {
     gap: 10px;
   }
