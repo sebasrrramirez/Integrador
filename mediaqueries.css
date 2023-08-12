@@ -1,18 +1,3 @@
-/* 480px: Mobile devices
- 768px: iPads, Tablets
-1024px: Small screens, laptops
-1200px: Desktops, large screens */
-
-/* ver 600 */
-/* 
-@media (max-width: 768px) {
-  /* h1 {
-    font-size: 30px;
-  }
-  .texto {
-    font-size: 17px;
-  } */
-
 @media (max-width: 450px) {
   h1 {
     margin: 0.4em;
@@ -38,12 +23,14 @@
 }
 
 @media (max-width: 768px) {
-  .landingpage {
+  .VH {
     /* cortar imagen */
     background: url("/img/fondor.jpg") center/cover scroll no-repeat;
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: local; */
+  }
+
+  .Hero__text {
+    font-size: calc(0.7em + 0.7vw);
+    line-height: 1em;
   }
 
   h1 {

@@ -27,6 +27,30 @@
   }
 }
 
+/* ANIMACION H1 Y H2 */
+@keyframes colorChange {
+  15% {
+    color: transparent;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+  }
+  50% {
+    color: transparent;
+    background: linear-gradient(orange, green);
+    -webkit-background-clip: text;
+  }
+  100% {
+    color: transparent;
+    background: linear-gradient(green, yellow);
+    -webkit-background-clip: text;
+  }
+}
+
+h1,
+h2 {
+  animation: colorChange 5s infinite;
+}
+
 /* menu */
 .menu li a::after {
   content: "";
