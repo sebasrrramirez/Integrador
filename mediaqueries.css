@@ -47,8 +47,8 @@
 
   .menu {
     position: absolute;
-    top: 10vh;
-    width: 90%;
+    top: 8vh;
+    max-width: 100%;
     left: 5%;
     right: 5%;
     border: 2px solid var(--electric);
@@ -57,7 +57,7 @@
     background-color: #edf2f4ff;
     border-radius: 0px 0px 15px 15px;
     padding: 30px 30px;
-    align-items: flex-start;
+    align-items: center;
     /* display: none; */
     transform: translateX(-200%);
     transition: all 0.5s ease-in-out;
