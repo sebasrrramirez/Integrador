@@ -481,6 +481,7 @@ h2 {
   align-items: top;
   gap: 75px;
   width: 90%;
+  margin: 0 auto;
 }
 
 .contacto p {
